@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  background: linear-gradient(to top right, #ffecd2, #fcb69f);
+  color: #3b2f2f;
+  line-height: 2;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #fff8e7;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#chalisaContainer {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.verse {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: #ffffffbb;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.verse:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff8e7;
+}
+
+button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ea580c;
+}
